@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+#menu{
+    background-color: #3AAF32;
+}
+
+#menu ul{
+    list-style: none;
+    padding:0;
+    background-color: #3AAF32;
+    max-width: 300px;
+    margin-left: 650px;
+    font-family: 'Marcellus', serif;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    transition: background .5s;
+
+}
+#menu ul li a:hover{
+   background-color: #035819;
+}
+
+.div1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'Marcellus', serif;
+}
+.imag{
+    width: 100px;
+    display: inline;
+    margin-left: 10px;
+    margin-right: -10px;
+}
+
+.principal{
+    background-color: #ffffff;
+    height: 270px;
+    width: 100%;
+}
+
+.div2{
+    position: relative;
+    width: 105%;
+    margin: auto;
+    text-align: justify;
+    font-family: 'Marcellus', serif;
+    font-size: 14px;
+}
+
+.ques{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.bl{
+    height: 100px;
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+.exp{
+    text-align: center;
+    width: 70%;
+    margin-left: 200px;
+    margin-top: -50px;
+    border-top: 2px #3AAF32 solid;
+    border-bottom: 2px #3AAF32 solid;
+    font-family: 'Marcellus', serif;
+}
+
+.vid{
+    margin-top: 10px;
+    position: absolute;
+    left: 500px;
+}
+
+.ref{
+    margin-top: 400px;
+    padding:5px;
+    background-color:#3AAF32;
+    font-family: 'Marcellus', serif;
+    font-size: 12px; 
+}
+
+.ref ul{
+    list-style: none;
+    padding: 5;
+}
+.ref ul li{
+    color:#ffffff;
+    margin-bottom: 5px;
+}
+.ref ul li a{
+    color:#094d17;
+}
